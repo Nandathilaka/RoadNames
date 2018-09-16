@@ -1,0 +1,48 @@
+﻿@model IEnumerable<RoadName.Models.Roadname>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ROAD NAMES</h1>
+    <p class="lead">Our goal is to inform people about how the Roads got names based on special insidents happened or famouse people lived in history.</p>
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Register to Continue</h2>
+            <p>
+                Open an Account with us
+            </p>
+            <p>@Html.ActionLink("Register", "Register", "Account", null, new { @class = "btn btn-primary btn-lg" })</p>
+
+        </div>
+        <div class="col-md-6">
+            <h2>Log in</h2>
+            <p>Access your Existing Account</p>
+            <p>@Html.ActionLink("Login", "Login", "Account", null, new { @class = "btn btn-primary btn-lg" })</p>
+
+        </div>
+
+    </div>
+   
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h3>Road Name : ඇඹිලිපිටිය</h3>
+        <p>
+            ඇමති බිලි වූ පිටිය ඇඹිලිපිටිය ලෙස නම් විය.
+        </p>
+        <p><a class="btn btn-default" href="">More Details &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h3>Road Name : හාගල </h3>
+        <p>හාවන් හිටපු ගලක් තිබ්බ නිසා හාවාගල ලෙස නම් වූ අතර පසු කාලීනව හාගල ලෙස නම් විය.</p>
+        <p><a class="btn btn-default" href="">More Details &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h3>Road Name : නෙටොල්පිටිය</h3>
+        <p>ගෝටයිම්බර යෝධයා විසින් නෙටොල් ගස් යාය එලිකර කුඹුරක් සෑදීම.මෙය පසු කාලීනව නෙටොල්පිටිය ලෙස නම් විය. </p>
+        <p><a class="btn btn-default" href="">More Details &raquo;</a></p>
+    </div>
+</div>
+

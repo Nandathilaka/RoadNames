@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Road Names";
+}
+
+<h1>Road Names</h1>
+<div class="row">
+    <div class="col-md-6 margin-top-20"><a href="@Url.Action("Create", "AdminRoadname")" class="btn btn-primary btn-block btn-large"><span class="glyphicon glyphicon-circle-arrow-down"></span>Create Road Name</a></div>
+    <div class="col-md-6 margin-top-20"><a href="@Url.Action("Index", "AdminRoadname")" class="btn btn-primary btn-block btn-large">View My Posted Road Names </a></div>
+</div>
+
+    <div class="row">
+        <div class="col-md-6 margin-top-20"><a href="@Url.Action("Index", "AdminViewRoadName")" class="btn btn-primary btn-block btn-large">View All Road Names Posted By Writer </a></div>
+        <div class="col-md-6 margin-top-20"><a href="@Url.Action("Index", "AdminViewWriter")" class="btn btn-primary btn-block btn-large">View All Writer</a></div>
+    </div>
+
+<div class="row">
+    <div class="col-md-6 margin-top-20"><a href="@Url.Action("Index", "Manage")" class="btn btn-primary btn-block btn-large">Setting</a></div>
+    <div class="col-md-6 margin-top-20"><a href="@Url.Action("Index", "AdminProfile")" class="btn btn-primary btn-block btn-large">My Profile</a></div>
+</div>
